@@ -23,5 +23,5 @@ function displayCommentsDetails(posts) {
 
 function clearData() {
     const postSection = document.getElementById('postContainer');
-    postSection = '';
+    postSection.innerHTML = '';
 }
