@@ -5,7 +5,7 @@
 }
 
 .body {
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
@@ -18,3 +18,44 @@
     margin: auto;
     height: 100%;
 }
+
+button {
+    margin: 30px auto;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    word-spacing: 0.05rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+    background-color: #027a4e;
+}
+
+.clearBtn {
+    float: right;
+}
+
+button:last-child {
+    background-color: #FFB3BB;
+    color: black;
+}
+
+button:last-child:hover {
+    background-color: rgb(245, 131, 142);
+}
+
+/* Post Styles Start */
+.postBodyContainer {
+    margin-bottom: 20px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+/* Post Styles End */
