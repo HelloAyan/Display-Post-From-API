@@ -11,9 +11,11 @@ function displayCommentsDetails(posts) {
     for (const post of posts) {
         const postDiv = document.createElement('div');
         postDiv.innerHTML = `
-        <div class='postBodyContainer'><span class='bold-text'> User ID: </span> ${post.userId}</div>
-        <div class='postBodyContainer'> <span class='bold-text '>Post Title - </span> ${post.title} </div>
-        <div class='postBodyContainer'> <span class= 'bold-text '> Description - </span> ${post.body} </div>
+        <div class='postBodyContainer'>
+            <div><span class='bold-text'> User ID: </span> ${post.userId}</div>
+            <div> <span class='bold-text '>Post Title - </span> ${post.title} </div>
+            <div> <span class= 'bold-text '> Description - </span> ${post.body} </div>
+        </div>
         `
         postSection.appendChild(postDiv);
     }
